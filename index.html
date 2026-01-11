@@ -1,60 +1,80 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سولاند - Soland | قريباً</title>
+    
+    <title>Soland</title>
+    <meta name="description" content="Soland - Independent international media observatory. Pilot broadcast coming soon.">
+    <link rel="canonical" href="https://soland.online">
+    <meta name="robots" content="index, follow">
+
+    <meta name="keywords" content="Soland, Independent Media, Fact Checking, News Analysis, 独立媒体, 新闻核查, СМИ, Проверка фактов, تحلیل اخبار, 독립 언론, 独立メディア">
+    
+    <meta name="keywords" content="Observatoire des médias, Vérification des faits, Medienbeobachtungsstelle, Faktencheck, Observatorio de medios, Verificación de hechos">
+
+    <meta property="og:title" content="Soland">
+    <meta property="og:description" content="International Media Observatory - Coming Soon.">
+    <meta property="og:url" content="https://soland.online">
+    <meta property="og:image" content="soland_main2.jpg">
+    <meta property="og:type" content="website">
+
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
+        body, html {
+            margin: 0; padding: 0; height: 100%; width: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #050a1a; 
+            background-image: url('B_main2.png');
+            background-size: cover;
+            background-position: center;
+            display: flex; justify-content: center; align-items: center;
+            color: #ffffff; overflow: hidden;
         }
-        .container {
-            background: white;
-            padding: 3rem;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            border-top: 5px solid #2ea44f; /* لون جيت هاب الأخضر */
+        .container { text-align: center; padding: 20px; animation: fadeIn 3s ease; }
+        .logo {
+            width: 85%; max-width: 450px; height: auto; margin-bottom: 25px;
+            filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.6));
         }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            color: #24292e;
+        .status-text {
+            font-size: 1.2rem; letter-spacing: 4px; text-transform: uppercase;
+            font-weight: 300; color: rgba(255, 255, 255, 0.8); line-height: 2;
         }
-        p {
-            font-size: 1.2rem;
-            color: #666;
-        }
-        .loading {
-            margin-top: 20px;
-            display: inline-block;
-            width: 50px;
-            height: 50px;
-            border: 3px solid rgba(0,0,0,.1);
-            border-radius: 50%;
-            border-top-color: #2ea44f;
-            animation: spin 1s ease-in-out infinite;
-        }
-        @keyframes spin {
-            to { transform: rotate(360deg); }
+        .status-text span { display: block; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @media (max-width: 600px) {
+            .logo { max-width: 280px; }
+            .status-text { font-size: 0.9rem; letter-spacing: 2px; }
         }
     </style>
-</head>
-<body>
 
-    <div class="container">
-        <h1>سولاند | Soland</h1>
-        <p>الموقع تحت الإنشاء...</p>
-        <div class="loading"></div>
-        <p style="font-size: 0.9rem; margin-top: 20px; color: #aaa;">  </p>
+    <div style="display:none;" aria-hidden="true">
+        <h1>Soland - International Media Observatory</h1>
+        <p>Independent journalism, deep analysis, and global fact-checking.</p>
+        <p>Soland - Observatoire indépendant des médias internationaux. Analyse et vérification.</p>
+        <p>Soland - Unabhängige internationale Medienbeobachtungsstelle. Analyse und Faktencheck.</p>
+        <p>Soland - Observatorio independiente de medios internacionales. Análisis y verificación.</p>
+        <p>Soland - 独立国际媒体观察站。新闻分析与事实核查。</p>
+        <p>Soland - Независимая международная обсерватория СМИ. Анализ и проверка фактов.</p>
     </div>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Soland",
+      "url": "https://soland.online",
+      "logo": "https://soland.online/soland_main2.jpg",
+      "description": "Global independent media observatory specializing in international news verification."
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="soland_main2.jpg" alt="Soland Logo" class="logo">
+        <div class="status-text">
+            <span>Pilot Broadcast</span>
+            <span>Coming Soon</span>
+        </div>
+    </div>
 </body>
 </html>
