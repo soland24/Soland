@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>رحلة في قلب مشروع تطوير هضبة الأهرامات | سولاند - Soland</title>
+    <meta name="description" content="تقرير ميداني من سولاند حول التحول التاريخي في منطقة الأهرامات 2026: النقل الكهربائي، مركز الزوار الجديد، واستراتيجيات إدارة الخدمات.">
+    <meta name="keywords" content="سولاند, Soland, تطوير الأهرامات, الجيزة 2026, سياحة مصر، حافلات كهربائية، أوراسكوم الأهرامات">
+    
+    <meta property="og:title" content="رحلة في قلب مشروع تطوير هضبة الأهرامات">
+    <meta property="og:image" content="pyramids_main_view.jpg"> <meta property="og:type" content="article">
+
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --dark-blue: #0a1128; 
+            --neon-cyan: #00f2ff;
+            --white: #ffffff;
+            --text-main: #1e293b;
+            --text-body: #334155;
+            --header-height: 110px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Almarai', 'Cairo', sans-serif;
+            background-color: #f4f7fa;
+            color: var(--text-main);
+            line-height: 1.9;
+        }
+
+        /* الهيدر بلوجو 85px */
+        .soland-header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            background: rgba(10, 17, 40, 0.98); 
+            backdrop-filter: blur(15px);
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid var(--neon-cyan);
+        }
+
+        .header-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-container img { height: 85px; width: auto; filter: drop-shadow(0 0 12px rgba(0, 242, 255, 0.5)); }
+
+        .progress-bar-container { position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: rgba(255,255,255,0.1); }
+        .progress-bar-fill { height: 100%; width: 0%; background: var(--neon-cyan); }
+
+        .main-wrapper {
+            max-width: 850px;
+            margin: calc(var(--header-height) + 40px) auto 60px;
+            padding: 0 20px;
+        }
+
+        .article-card {
+            background: var(--white);
+            padding: clamp(1.5rem, 5vw, 4rem);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            font-size: clamp(1.7rem, 5vw, 2.3rem);
+            color: var(--dark-blue);
+            font-weight: 900;
+            line-height: 1.4;
+            margin-bottom: 1.2rem;
+        }
+
+        .intro-lead {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--dark-blue);
+            border-right: 6px solid var(--neon-cyan);
+            padding-right: 15px;
+            margin-bottom: 2.5rem;
+            display: block;
+        }
+
+        /* تنسيق الصورة الموضوعية للأهرامات */
+        .featured-image {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 3.5rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .full-text {
+            font-size: clamp(1.15rem, 2.5vw, 1.3rem);
+            color: var(--text-body);
+            text-align: justify;
+        }
+
+        .full-text p { margin-bottom: 2rem; }
+
+        h2 {
+            font-size: 1.7rem;
+            color: var(--dark-blue);
+            margin: 4rem 0 1.5rem;
+            font-weight: 800;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 10px;
+        }
+
+        blockquote {
+            background: #f8fafc;
+            padding: 2.5rem;
+            border-radius: 12px;
+            border-right: 8px solid var(--dark-blue);
+            font-size: 1.4rem;
+            margin: 3.5rem 0;
+            color: #1e293b;
+        }
+
+        footer { text-align: center; padding: 50px; color: #94a3b8; font-size: 0.95rem; }
+
+        @media (max-width: 600px) {
+            :root { --header-height: 90px; }
+            .logo-container img { height: 60px; }
+            .article-card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="soland-header">
+        <div class="header-container">
+            <a href="#" class="logo-container">
+                <img src="Soland_logo1.jpg" alt="Soland Logo">
+            </a>
+        </div>
+        <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="pb"></div>
+        </div>
+    </header>
+
+    <main class="main-wrapper">
+        <article class="article-card">
+            <header>
+                <h1>رحلة في قلب مشروع تطوير هضبة الأهرامات</h1>
+                <span class="intro-lead">تحول عميق يتجاوز الخدمات ليصل إلى إعادة تعريف العلاقة بين الأثر والسائح والدولة.</span>
+            </header>
+
+            <img src="ahram202601.jpg" alt="تطوير منطقة الأهرامات 2026" class="featured-image">
+
+            <div class="full-text">
+                <p>لا يحتاج الزائر إلى كثير من التدقيق ليلاحظ أن المشهد العام في هضبة الأهرامات في مطلع العام 2026، لم يعد كما كان قبل سنوات قليلة. الصمت النسبي الذي تصنعه الحافلات الكهربائية، وانسيابية حركة الدخول، واختفاء كثير من المظاهر التي ارتبطت طويلًا بفوضى الزيارة، كلها مؤشرات على أن الموقع الأثري الأشهر في العالم يخضع لتحول عميق، يتجاوز كونه مجرد تحسينات خدمية، ليصل إلى إعادة تعريف العلاقة بين الأثر والسائح والدولة.</p>
+
+                <p>مشروع تطوير منطقة الأهرامات لم يكن قرارًا مفاجئًا، بل جاء نتيجة تراكم طويل من الإخفاقات الإدارية التي عانت منها المنطقة لعقود، رغم قيمتها التاريخية والرمزية. ملايين الزوار كانوا يتوافدون سنويًا إلى موقع يفتقر إلى الحد الأدنى من التنظيم، من هنا، بدأ التفكير في نموذج جديد لإدارة الخدمات، يحقق التوازن بين حماية الأثر وتقديم تجربة تليق بمكانة الأهرامات عالميًا.</p>
+
+                <h2>إدارة بلا ملكية: الإطار القانوني للمشروع</h2>
+                <p>من أكثر النقاط التي أُسيء فهمها في الرأي العام مسألة علاقة شركة أوراسكوم بالمنطقة الأثرية. فالمشروع، منذ بدايته، لم يقم على نقل ملكية أو تأجير الموقع، وإنما على إسناد إدارة الخدمات السياحية إلى جهة متخصصة، بينما تظل الدولة، ممثلة في وزارة السياحة والآثار، صاحبة السيادة الكاملة على الأرض والأثر.</p>
+
+                <blockquote>
+                    "هذا الفصل بين الإدارة والملكية هو جوهر النموذج الجديد. فالشركة تتحمل مسؤولية التشغيل اليومي، بينما تذهب إيرادات تذاكر الدخول مباشرة إلى الخزانة العامة للدولة."
+                </blockquote>
+
+                <h2>البنية التحتية غير المرئية: ما لا يراه السائح</h2>
+                <p>واحدة من أهم مراحل التطوير لم تكن ظاهرة للعيان، لكنها كانت الأكثر كلفة وتأثيرًا. فقد استلزم المشروع إعادة بناء شبكات الصرف، وتحديث أنظمة الكهرباء، ومد كابلات الاتصالات، وإنشاء منظومات حديثة للحماية من الحرائق، وكلها أعمال تمت تحت الأرض حمايةً لاستدامة الموقع من التآكل التدريجي.</p>
+
+                <h2>مركز الزوار: إعادة تعريف لحظة الدخول</h2>
+                <p>مركز الزوار الجديد، المقام عند مدخل طريق الفيوم، غيّر بالكامل فلسفة الزيارة. هذا المركز لا يعمل كنقطة عبور فقط، بل كمساحة تمهيدية تُهيئ الزائر نفسيًا ومعرفيًا قبل مواجهة الأثر. التصميم المعماري للمركز اعتمد على مواد تتناغم مع طبيعة الهضبة، دون استعراض أو مبالغة.</p>
+
+                <h2>النقل الكهربائي: التكنولوجيا تخدم التاريخ</h2>
+                <p>من أبرز مظاهر التطوير اعتماد منظومة نقل داخلية تعتمد على الحافلات الكهربائية. هذه الخطوة كانت ضرورة بيئية وأثرية؛ فالتلوث والضوضاء كانا من أخطر التهديدات للأثر، ومع التحول للنقل النظيف، انخفض الضغط البيئي بشكل واضح، مما جعل تجربة الزيارة أكثر هدوءًا واحترامًا للمكان.</p>
+
+                <h2>الخيالة والجمالة: معضلة اجتماعية معقدة</h2>
+                <p>الحل لم يكن الإقصاء، بل الدمج المنظم. من خلال تحديد مناطق مخصصة، ووضع تسعير واضح، وربط الخدمة بنظام حجز وتقييم، أصبح النشاط جزءًا من المنظومة السياحية الرسمية، بدل أن يكون عنصر فوضى. ورغم الصعوبات الأولية، بدأت النتائج تظهر في صورة تجربة أكثر أمانًا واحترامًا للطرفين.</p>
+
+                <h2>الخدمات والمطاعم: جدل الرفاهية والهيبة</h2>
+                <p>أثار وجود مطاعم ومقاهٍ بالقرب من الأهرامات جدلًا واسعًا. الحقيقة أن السائح المعاصر لا يفصل بين المعرفة والراحة، وتوفير خيارات طعام منظمة لم تعد كماليات، بل جزءًا أساسيًا من أي موقع سياحي عالمي، والتحدي يكمن في ضبط هذه الخدمات بحيث تخدم التجربة دون أن تطغى على الأثر.</p>
+
+                <h2>الأهرامات في السياق العالمي والمستقبل</h2>
+                <p>عند مقارنة تجربة الجيزة بمواقع أثرية كبرى، يتضح أن ما تحقق وضع الأهرامات في موقع تنافسي جديد. المخططات المستقبلية تشير إلى إدخال مزيد من التقنيات التفاعلية وتوسيع الاعتماد على الطاقة النظيفة، مع الحفاظ على التوازن الدقيق بين التطوير والحماية.</p>
+
+                <p>مشروع تطوير الأهرامات تجربة إدارية وثقافية تعكس كيف يمكن لموقع عمره آلاف السنين أن يتفاعل مع متطلبات القرن الحادي والعشرين دون أن يفقد روحه. الأهرامات اليوم تُدار بعقلية تدرك أن حماية التاريخ تبدأ من احترام الزائر، وتنتهي بالحفاظ على الأثر للأجيال القادمة.</p>
+            </div>
+            
+            <div class="publish-date">
+    <span class="location-icon">📍</span>
+    القاهرة : الأربعاء 14 يناير 2026
+</div>
+
+<style>
+    .publish-date {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px dashed #e2e8f0;
+        color: #64748b; /* لون رمادي هادئ */
+        font-size: 1.1rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .location-icon {
+        filter: grayscale(1); /* جعل الأيقونة هادئة لتناسب وقار الموقع */
+        font-size: 1.2rem;
+    }
+</style>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 سولاند (Soland) - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("pb").style.width = scrolled + "%";
+        };
+    </script>
+</body>
+</html>

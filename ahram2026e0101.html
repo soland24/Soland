@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ancient Grandeur Reimagined: The Giza Pyramids Transformation | Soland</title>
+    <meta name="description" content="A deep dive into the 2026 Giza Plateau development project. Discover how green technology and new management are preserving the last ancient wonder.">
+    <meta name="keywords" content="Soland, Giza Pyramids 2026, Egypt Tourism Development, Electric Buses Giza, Great Pyramid experience, Sustainable Heritage">
+    
+    <meta property="og:title" content="Ancient Grandeur Reimagined: The Silent Transformation of the Pyramids">
+    <meta property="og:image" content="pyramids_english_view.jpg">
+    <meta property="og:type" content="article">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --dark-blue: #0a1128; 
+            --neon-cyan: #00f2ff;
+            --white: #ffffff;
+            --text-main: #1e293b;
+            --text-body: #334155;
+            --header-height: 110px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: var(--text-main);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Soland Global Header */
+        .soland-header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            background: rgba(10, 17, 40, 0.98); 
+            backdrop-filter: blur(15px);
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid var(--neon-cyan);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .header-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-container img {
+            height: 85px; 
+            width: auto;
+            filter: drop-shadow(0 0 10px rgba(0, 242, 255, 0.4));
+        }
+
+        .progress-bar-container {
+            position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: rgba(255,255,255,0.1);
+        }
+        .progress-bar-fill {
+            height: 100%; width: 0%; background: var(--neon-cyan);
+        }
+
+        /* Article Structure */
+        .main-wrapper {
+            max-width: 850px;
+            margin: calc(var(--header-height) + 50px) auto 80px;
+            padding: 0 20px;
+        }
+
+        .article-card {
+            background: var(--white);
+            padding: clamp(1.5rem, 5vw, 4.5rem);
+            border-radius: 24px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.04);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            color: var(--dark-blue);
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .intro-lead {
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: #64748b;
+            border-left: 5px solid var(--neon-cyan);
+            padding-left: 20px;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+
+        .featured-image {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            margin-bottom: 3.5rem;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        .full-text {
+            font-size: clamp(1.1rem, 2vw, 1.25rem);
+            color: var(--text-body);
+        }
+
+        .full-text p { margin-bottom: 1.8rem; }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--dark-blue);
+            margin: 3.5rem 0 1.5rem;
+            font-weight: 700;
+        }
+
+        blockquote {
+            background: #f1f5f9;
+            padding: 2.5rem;
+            border-radius: 0 12px 12px 0;
+            border-left: 8px solid var(--dark-blue);
+            font-size: 1.3rem;
+            font-style: italic;
+            margin: 3rem 0;
+            color: #334155;
+        }
+
+        /* Publish Date Section */
+        .publish-footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #f1f5f9;
+            color: #94a3b8;
+            font-weight: 600;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding-bottom: 60px;
+            color: #cbd5e1;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            :root { --header-height: 90px; }
+            .logo-container img { height: 65px; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="soland-header">
+        <div class="header-container">
+            <a href="#" class="logo-container">
+                <img src="Soland_logo1.jpg" alt="Soland Logo">
+            </a>
+        </div>
+        <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="pb"></div>
+        </div>
+    </header>
+
+    <main class="main-wrapper">
+        <article class="article-card">
+            <header>
+                <h1>Ancient Grandeur Reimagined: The Silent Transformation of the Pyramids</h1>
+                <p class="intro-lead">A profound reimagining of how a 4,500-year-old necropolis interacts with the 21st-century traveler, harmonising modern infrastructure with historical soul.</p>
+            </header>
+
+            <img src="ahram202602.jpg" alt="The Grand Transformation of Giza Plateau" class="featured-image">
+
+            <div class="full-text">
+                <p>CAIRO — To stand at the foot of the Great Pyramid of Giza in early 2026 is to experience a sensation that was, until recently, almost unthinkable: stillness. For decades, the majesty of the last remaining wonder of the ancient world was often overshadowed by a cacophony of diesel engines, persistent touts, and the logistical friction of a site struggling under the weight of its own fame. Today, however, the air is clearer, the crowds are managed, and the atmosphere is one of curated reverence.</p>
+
+                <h2>Sovereignty Meets Private Efficiency</h2>
+                <p>At the heart of this revival lies a nuanced administrative shift. The Egyptian state has retained absolute sovereignty over the land and its treasures, yet it has intelligently outsourced the "experience" to specialized private management. This separation of "sovereignty" from "service" is the project’s masterstroke.</p>
+
+                <blockquote>
+                    "By allowing a private operator to handle the mechanics of hospitality, the state remains the ultimate guardian of history while ensuring the visitor experience is handled with corporate precision."
+                </blockquote>
+
+                <h2>The Invisible Foundation</h2>
+                <p>Much of what makes the "new" Giza function remains unseen. Beneath the desert sands, a massive subterranean overhaul has taken place, invisible to the cameras but vital for the site's survival. Millions have been invested in fiber-optic networks, advanced fire-suppression systems, and robust utility grids.</p>
+
+                <h2>From Chaos to Choreography</h2>
+                <p>The entry sequence has been entirely redefined. The new Visitor Centre, positioned at the Fayoum Road gateway, acts as a psychological "buffer zone." Its understated architecture utilizes local materials to blend into the landscape, preparing the visitor—briefing them on the historical weight of the monuments—before they are transported into the site via a silent fleet of electric buses.</p>
+
+                <p>This shift to green transport is more than a nod to sustainability; it is a conservation necessity. By removing internal combustion engines, the project has drastically reduced both acoustic and chemical pollution, returning a sense of dignity to the Khufu and Khafre monuments.</p>
+
+                <h2>The Human Element: Horses and Heritage</h2>
+                <p>Perhaps the most delicate challenge was the social one. Rather than choosing exclusion, the current model opts for integration. By establishing dedicated zones, transparent pricing, and digital tracking systems, these traditional services have been brought into the formal fold, preserving a traditional way of life without compromising peace of mind.</p>
+
+                <h2>A Global Benchmark</h2>
+                <p>As the sun sets over the plateau, casting long shadows across the Sphinx, the debate over "commercialisation" versus "prestige" seems to have found its answer. Modern travelers do not view clean facilities and organized dining as luxuries; they view them as essential respect for the site itself.</p>
+
+                <p>The pyramids remain symbols of eternity, but they are finally being managed by a mindset that understands that protecting the past begins with respecting the guest.</p>
+
+                <div class="publish-footer">
+                    <span>📍 Cairo: Wednesday, January 14, 2026</span>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 Soland - All Rights Reserved</p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("pb").style.width = scrolled + "%";
+        };
+    </script>
+</body>
+</html>
