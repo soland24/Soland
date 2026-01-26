@@ -1,46 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://soland.online/</loc>
-    <lastmod>2026-01-15T12:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://soland.online/ineg2026e0101.html</loc>
-    <lastmod>2026-01-15T12:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://soland.online/ahram01202601.html</loc>
-    <lastmod>2026-01-15T12:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://soland.online/Drhesham2026011201.html</loc>
-    <lastmod>2026-01-15T12:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://soland.online/Ge2026012012.html</loc>
-    <lastmod>2026-01-15T12:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://soland.online/Sk20260112092622.html</loc>
-    <lastmod>2026-01-15T12:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
+<url>
+<loc>https://soland.online/</loc>
+<lastmod>2026-01-15</lastmod>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://soland.online/ineg2026e0101.html</loc>
+<lastmod>2026-01-15</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://soland.online/ahram01202601.html</loc>
+<lastmod>2026-01-15</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://soland.online/Drhesham2026011201.html</loc>
+<lastmod>2026-01-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://soland.online/Ge2026012012.html</loc>
+<lastmod>2026-01-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://soland.online/DrElmira2601026.html</loc>
+<lastmod>2026-01-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://soland.online/DREsaam2601261.html</loc>
+<lastmod>2026-01-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://soland.online/Sk20260112092622.html</loc>
+<lastmod>2026-01-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
 </urlset>
