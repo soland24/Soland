@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>على ضفاف النيل والفولجا: رحلة في المصادر العربية لتتبع التواصل المصري-التتاري | مرصد سولاند الإعلامي</title>
+    <meta name="description" content="دراسة تاريخية حول العلاقات المصرية التتارية وتأثير العلماء والرحالة بين النيل والفولجا. بقلم د. سيفالدينوفنا إلميرا عادل چانوفنا.">
+    <meta name="keywords" content="سولاند, Soland, المماليك, القبيلة الذهبية, تاريخ التتار, شهاب الدين المرجاني, سيف سراي">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --dark-blue: #0a1128; 
+            --neon-cyan: #00f2ff;
+            --white: #ffffff;
+            --text-main: #1e293b;
+            --text-body: #334155;
+            --header-height: 110px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Almarai', 'Cairo', sans-serif;
+            background-color: #f4f7fa;
+            color: var(--text-main);
+            line-height: 1.9;
+        }
+
+        .soland-header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            background: rgba(10, 17, 40, 0.98); 
+            backdrop-filter: blur(15px);
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid var(--neon-cyan);
+            box-shadow: 0 5px 30px rgba(0, 242, 255, 0.2);
+        }
+
+        .header-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-container img {
+            height: 85px;
+            width: auto;
+            filter: drop-shadow(0 0 12px rgba(0, 242, 255, 0.5));
+            transition: transform 0.3s ease;
+        }
+
+        .progress-bar-container {
+            position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: rgba(255,255,255,0.1);
+        }
+        .progress-bar-fill {
+            height: 100%; width: 0%; background: var(--neon-cyan); box-shadow: 0 0 15px var(--neon-cyan);
+        }
+
+        .main-wrapper {
+            max-width: 850px;
+            margin: calc(var(--header-height) + 40px) auto 60px;
+            padding: 0 20px;
+        }
+
+        .article-card {
+            background: var(--white);
+            padding: clamp(1.5rem, 5vw, 4rem);
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+        }
+
+        .author-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #f8fafc;
+            border-radius: 15px;
+            border-right: 4px solid var(--neon-cyan);
+        }
+
+        .author-avatar {
+            width: 75px;
+            height: 75px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 2px solid var(--dark-blue);
+        }
+
+        .author-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .author-label {
+            font-size: 0.9rem;
+            color: #64748b;
+            font-weight: bold;
+        }
+
+        .author-name {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--dark-blue);
+        }
+
+        h1 {
+            font-size: clamp(1.7rem, 5vw, 2.3rem);
+            color: var(--dark-blue);
+            font-weight: 900;
+            line-height: 1.4;
+            margin-bottom: 1.5rem;
+        }
+
+        .post-image {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .full-text {
+            font-size: clamp(1.15rem, 2.5vw, 1.3rem);
+            color: var(--text-body);
+            text-align: justify;
+        }
+
+        .full-text p { margin-bottom: 1.8rem; }
+        
+        .full-text ul, .full-text ol {
+            margin-bottom: 2rem;
+            padding-right: 2rem;
+        }
+
+        .full-text li {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px;
+            color: #94a3b8;
+            font-size: 0.9rem;
+            background: var(--dark-blue);
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            :root { --header-height: 90px; }
+            .logo-container img { height: 60px; }
+            .article-card { padding: 20px; }
+            .author-avatar { width: 60px; height: 60px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="soland-header">
+        <div class="header-container">
+            <a href="#" class="logo-container">
+                <img src="Soland_logo1.jpg" alt="Soland Logo">
+            </a>
+        </div>
+        <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="pb"></div>
+        </div>
+    </header>
+
+    <main class="main-wrapper">
+        <article class="article-card">
+            <header>
+                <h1>على ضفاف النيل والفولجا: رحلة في المصادر العربية لتتبع التواصل المصري-التتاري</h1>
+                
+                <div class="author-section">
+                    <img src="DRElmira.jpg" alt="د. سيفالدينوفنا إلميرا" class="author-avatar">
+                    <div class="author-info">
+                        <span class="author-label">بقلم:</span>
+                        <span class="author-name">د. سيفالدينوفنا إلميرا عادل چانوفنا</span>
+                        <small style="color: #64748b; font-size: 0.8rem; line-height: 1.2; margin-top: 4px;">أستاذة باحثة في أكاديمية العلوم التتارية بكازان ومعهد التاريخ (المرجاني)</small>
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="full-text">
+                <p>لم تكن الصحراء أو البعد الجغرافي حاجزًا أمام تلاقي الحضارات؛ ففي رفوف مكتبات القاهرة والإسكندرية تكمن قصص اتصال مدهشة، نسجتها الرياح التجارية والسياسية بين سلاطين المماليك في مصر وخانات "القبيلة الذهبية" على ضفاف نهر الفولجا. هذه العلاقة التي بدأت كتحالفٍ استراتيجي في القرن الثالث عشر الميلادي، سرعان ما تحولت إلى جسرٍ ثقافي وعلمي متينٍ، تُروى فصوله اليوم من خلال ما خلَّفه لنا مؤرخو ذلك العصر، وما حمله معه العلماء والرحالة بين ضفتي النيل والفولجا.</p>
+
+                <p>استحقت القاهرة بجدارة لقب "قبلة العلماء" في العالم الإسلامي الوسيط؛ فجامع الأزهر ومدارسها العلمية العديدة لم يكن لها نظير كمعهدٍ يستقطب طلاب المعرفة من كل حدب وصوب. وكان للعلماء القادمين من مناطق قازان والقرم وحوض الفولجا حضور لافت في حلقات الدرس، ليس فقط في العلوم الشرعية واللغوية، بل أيضاً في الطب والفلك والفلسفة. لقد شكل هؤلاء الوافدون جزءًا أصيلاً من النسيج الفكري للقاهرة، تاركين إرثًا لا يُمحى.</p>
+
+                <p>ومن بين أولئك الرحالة والمفكرين الذين قطعوا المسافات الطويلة نحو الجنوب، برزت أسماء أصبحت علامات فارقة في تاريخنا المشترك، ومنهم:</p>
+                <ul>
+                    <li>العالم الموسوعي شهاب الدين المرجاني (1818–1889م): ذلك الشيخ التتاري الذي جاء إلى مصر في طريقه للحج عام 1863م. لم يكن مروره عابرًا؛ فأقام فترةً للقاء علمائها والأخذ عنهم، ودوّن انطباعاته الحيّة عن مصر في مذكراته الشخصية. وتقديراً لإسهاماته الضخمة في كتابة التاريخ، يحمل معهد التاريخ الرئيسي في أكاديمية علوم جمهورية تتارستان اسمه حتى اليوم.</li>
+                    <li>المفكر الإصلاحي موسى جار الله بيغييف (1875–1949م): الذي وجد في القاهرة ملاذًا أمينًا لفكره التجديدي. قضى سنواته الأخيرة بين أزقتها، وأثْرى المكتبة الإسلامية بمؤلفاته الجريئة، ليدفن في نهاية المطاف في مقابر الإمام الشافعي، حيث لا يزال قبره مزارًا للعارفين بسيرته.</li>
+                    <li>الشاعر سيف سراي: وهو وجه آخر لهذا التمازج الثقافي؛ ففي أواخر القرن الرابع عشر الميلادي، أنشأ في القاهرة قصيدته الملحمية "غولستان بيت الترك"، لتبقى أقدم قصيدة من الأدب التتري التركي تُدوَّن على أرض مصر، شاهدةً على أن التبادل تجاوز السياسة والعلم إلى آداب اللغة ووجدانها.</li>
+                    <li>الأميرة طولونبية: التي تروي حياتها قصة التحالف السياسي؛ فزواج هذه الأميرة من السلطان الناصر محمد بن قلاوون لم يكن حدثًا عائليًا فحسب، بل كان عقدًا سياسيًا يُرسَّخ بالدم. وتبقى "مقبرة طولون باي" في حي السيدة عائشة بالقاهرة شاهداً صامتاً على تلك الروابط المتشابكة بين البلاطين.</li>
+                </ul>
+
+                <p>لولا دقة وتسجيل مؤرخي العصر المملوكي لضاع كثير من تفاصيل هذه الصلة؛ فقد كان هؤلاء المؤرخون —وبعضهم عمل في "ديوان الإنشاء"— مسجلين بارعين للأحداث:</p>
+                <ol>
+                    <li>القلقشندي: في موسوعته الإدارية الفريدة "صبح الأعشى"، حفظ لنا نصوصًا كاملة للرسائل والمراسيم المتبادلة، كاشفاً عن لغة الخطاب الدبلوماسي والألقاب والبروتوكولات المعقدة.</li>
+                    <li>المقريزي وابن فضل الله العمري وابن عبد الظاهر: قدموا سجلاً حياً لحركة الوفود، ووصفًا لأحوال الشعوب، وتحليلاً للعلاقات التي جمعت مصر بجاراتها في الشمال، مستندين في كثير من الأحيان إلى وثائق رسمية أو مشاهدات عينية.</li>
+                    <li>ابن بطوطة: الذي زار عاصمة القبيلة الذهبية "سراي"، وقدم لنا لوحةً نابضة بالحياة عن المجتمع هناك، مكملاً الصورة من الطرف الآخر.</li>
+                </ol>
+
+                <p>لا تقف القصة عند حدود ما كُتب، بل تمتد إلى ما خُبئ؛ فالمكتبات المصرية العريقة تعدُّ خزائن لتراث هائل، تقبع بين رفوفها آلاف المخطوطات التي قد تحمل في طياتها:</p>
+                <ul>
+                    <li>سجلات غير منشورة لديوان الإنشاء تخص العلاقات مع الشمال.</li>
+                    <li>مشاهدات شخصية لرحالة وتجار.</li>
+                    <li>نسخًا نادرةً من مؤلفات ألفها علماء قادمون من تلك المناطق.</li>
+                </ul>
+
+                <p>كما أن الشواهد المادية، من عمارة إلى نقود إسلامية سُكَّت وتدوولت، تشكل لغةً أخرى لفهم عمق التبادل الاقتصادي والفني. لا تروي لنا هذه الصلات التاريخية مجرد أحداث منسية، بل تفتح نافذةً على نموذج عميق للتعاون. إن دراسة هذا التراث ليست ترفًا فكريًا، بل هي جهد لاستعادة ذاكرة مشتركة.</p>
+
+                <p>وتبقى المهمة الكبرى أمام الباحثين اليوم متمثلة في:</p>
+                <ol>
+                    <li>الغوص في الأرشيف: تنقيب حثيث للكشف عن وثائق جديدة.</li>
+                    <li>القراءة متعددة التخصصات: لفك شفرات هذه العلاقات من جميع جوانبها.</li>
+                    <li>حوار الحضارات المستمر: بناء جسور تعاون بحثي برؤية متكاملة.</li>
+                </ol>
+                <p>فالكنوز موجودة، بين السطور وبين الحجارة، وهي تنتظر من يقرأها ليجعل من حوار الماضي جسرًا نحو مستقبل من الفهم المتبادل.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>مرصد سولاند الإعلامي</p>
+        <p>© 2026 سولاند (Soland) - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("pb").style.width = scrolled + "%";
+        };
+    </script>
+</body>
+</html>
