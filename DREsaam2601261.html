@@ -8,6 +8,12 @@
     <meta name="description" content="مقال حول دمج صناعة المحمول المصري في سياحة التسوق والصناعة لتحقيق نمو اقتصادي مستدام. بقلم د. عصام عبد الله.">
     <meta name="keywords" content="سولاند, Soland, السياحة الصناعية, سياحة التسوق, المحمول المصري, الاقتصاد المصري 2026">
     
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="المحمول المصري.. رهان رابح في سباق السياحة الصناعية والتسوق">
+    <meta property="og:description" content="بقلم د. عصام عبد الله - حول دمج صناعة المحمول المصري في سياحة التسوق والصناعة.">
+    <meta property="og:image" content="https://solandmedia.com/DrEssam.jpg"> 
+    <meta property="og:url" content="https://solandmedia.com/egyptian-mobile-article">
+
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
 
     <style>
@@ -54,7 +60,6 @@
             height: 85px;
             width: auto;
             filter: drop-shadow(0 0 12px rgba(0, 242, 255, 0.5));
-            transition: transform 0.3s ease;
         }
 
         .progress-bar-container {
@@ -80,20 +85,21 @@
         .author-section {
             display: flex;
             align-items: center;
-            gap: 15px;
-            margin-bottom: 25px;
-            padding: 15px;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding: 20px;
             background: #f8fafc;
             border-radius: 15px;
-            border-right: 4px solid var(--neon-cyan);
+            border-right: 8px solid var(--neon-cyan);
         }
 
         .author-avatar {
-            width: 75px;
-            height: 75px;
-            border-radius: 10px;
+            width: 130px; /* تم التكبير كما طلبت */
+            height: 130px; 
+            border-radius: 15px;
             object-fit: cover;
-            border: 2px solid var(--dark-blue);
+            border: 3px solid var(--dark-blue);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
         }
 
         .author-info {
@@ -102,13 +108,13 @@
         }
 
         .author-label {
-            font-size: 0.9rem;
+            font-size: 1rem;
             color: #64748b;
             font-weight: bold;
         }
 
         .author-name {
-            font-size: 1.1rem;
+            font-size: 1.4rem;
             font-weight: 800;
             color: var(--dark-blue);
         }
@@ -119,13 +125,6 @@
             font-weight: 900;
             line-height: 1.4;
             margin-bottom: 1.5rem;
-        }
-
-        .post-image {
-            width: 100%;
-            border-radius: 12px;
-            margin-bottom: 3rem;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
 
         .full-text {
@@ -148,8 +147,9 @@
         @media (max-width: 600px) {
             :root { --header-height: 90px; }
             .logo-container img { height: 60px; }
-            .article-card { padding: 20px; }
-            .author-avatar { width: 60px; height: 60px; }
+            .article-card { padding: 25px 15px; }
+            .author-avatar { width: 100px; height: 100px; }
+            .author-name { font-size: 1.2rem; }
         }
     </style>
 </head>
@@ -174,7 +174,7 @@
                 <div class="author-section">
                     <img src="DrEssam.jpg" alt="د. عصام عبد الله" class="author-avatar">
                     <div class="author-info">
-                        <span class="author-label">بقلم:</span>
+                        <span class="author-label">بقلم :</span>
                         <span class="author-name">د. عصام عبد الله</span>
                     </div>
                 </div>
